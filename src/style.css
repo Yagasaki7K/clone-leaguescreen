@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    width: 35%;
+    height: 100%;
+    margin-top: 8%;
+    max-width: 500px;
+}
+
+.login img {
+    width: 10%;
+}
+
+.login span {
+    color: #fff;
+    background: #B2B2B2;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    margin-top: 6%;
+    margin-left: 85%;
+
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.login span:hover {
+
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.username input {
+    border: none;
+    width: 65%;
+    background: #EDEDED;
+
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    color: #A6A1A1;
+
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-face {
+    display: flex;
+    width: 20%;
+    height: 40px;
+
+    border-radius: 5%;
+    background: #1877F2;
+
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-face img {
+    width: 20%;
+}
+
+.btn-google {
+    display: flex;
+    width: 20%;
+    height: 40px;
+    margin-left: 5%;
+
+    border-radius: 5%;
+    background: #fff;
+
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-google img {
+    width: 20%;
+}
+
+.btn-apple {
+    display: flex;
+    width: 20%;
+    height: 40px;
+    margin-left: 5%;
+
+    border-radius: 5%;
+    background: #000;
+
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-apple img {
+    width: 20%;
+}
+
+.checklogin {
+    display: flex;
+    color: #A6A1A1;
+    font-family: Poppins;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.checklogin input {
+    margin-left: 15%;
+}
+
+.splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
