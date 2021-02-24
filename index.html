@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>League of Legends</title>
+    <title>League of Legends | Brasil</title>
     <link rel="stylesheet" href="src/style.css">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/png">
 </head>
 <body>
+    <div class="splash">
+        <img src="assets/twitch.png">
+    </div>
+
     <div class="login">
-        <span>?</span>
-        <center>
+        <center><span>?</span>
+        
             <img src="assets/logo.png">
 
             <h2>Fazer Login</h2>
@@ -20,20 +25,20 @@
             </div>
 
             <div class="socialmedia">
-                <div class="btn-face"><img src="assets/facebook.svg"></div>
-                <div class="btn-google"><img src="assets/google.svg"></div>
-                <div class="btn-apple"><img src="assets/apple.svg"></div>
+                <div class="btn-face" onclick="location.href = 'http://www.facebook.com.br';" ><img src="assets/facebook.svg"></div>
+                <div class="btn-google" onclick="location.href = 'http://www.google.com.br';" ><img src="assets/google.svg"></div>
+                <div class="btn-apple" onclick="location.href = 'http://apple.com.br';" ><img src="assets/apple.svg"></div>
             </div>
             
             <div class="checklogin">
                 <input type="checkbox"> Manter login </input>
             </div>
 
-            
+            <div class="send-btn"><img src="./assets/right-arrow.svg"></div><br>
+
+            <a href="https://recovery.riotgames.com/pt-br?region=BR1">NÃO CONSEGUE INICIAR SESSÃO?</a><br>
+            <a href="https://signup.br.leagueoflegends.com/pt/signup/index">CRIAR CONTA</a>
         </center>
-    </div>
-    <div id="splash">
-        <img src="assets/splash.jpg">
     </div>
 </body>
     <script src="src/script.js"></script>
