@@ -1,2 +1,2 @@
 # leaguescreen
-A league of Legends login screen
+A League of Legends - Login Screen
