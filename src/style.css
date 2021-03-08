@@ -10,18 +10,20 @@ body {
 }
 
 .login {
-    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 675px;
-    height: 1080px; 
+    height: 100%; 
     max-width: 100%;
     position: relative;
+    background: #FFF;
 }
 
 center {
-    background: #fff;
-    height: 1080px;
-    padding-top: 100px;
-    margin-top: -70px;
+    height: 100vh;
+    margin-top: 10em;
 }
 
 .login img {
@@ -144,7 +146,7 @@ h2 {
 .splash {
     position: absolute;
     width: 100%;
-    margin-top: -90px;
+    height: 100vh;
 }
 
 .splash img {
