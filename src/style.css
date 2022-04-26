@@ -23,7 +23,7 @@ body {
 
 center {
     height: 100vh;
-    margin-top: 10em;
+    margin-top: 20px;
 }
 
 .login img {
@@ -151,6 +151,12 @@ h2 {
 
 .splash img {
     width: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+    .splash {
+        display: none;
+    }
 }
 
 .send-btn {
